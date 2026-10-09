@@ -1,0 +1,2 @@
+n_samples,n_features,feature_names,missing_pct,outlier_pct_3sigma,outlier_pct_iqr,rain_pct,no_rain_pct,imbalance_ratio,mean_skewness,max_skewness,avg_feature_corr,max_feature_corr,has_temporal_order,temporal_autocorr_lag1,seasonality_strength,rainfall_variability,sample_to_feature_ratio
+2097,4,"['T2M', 'RH2M', 'PS', 'WS10M']",0.0,0.35,1.17,56.8,43.2,1.31,0.548,1.466,0.357,0.577,True,0.945,1.0,2.35,524.2

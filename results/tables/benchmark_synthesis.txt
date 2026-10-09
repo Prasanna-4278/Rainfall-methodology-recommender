@@ -1,0 +1,16 @@
+================================================================================
+METHODOLOGY BENCHMARK COMPARATIVE SUMMARY
+================================================================================
+Best Accuracy            : Paper 4 (Khan et al. 2024) (Decision Tree) - 0.8947
+Best Rain Precision      : Paper 4 (Khan et al. 2024) (Logistic Regression) - 0.9353
+Best Rain Recall         : Paper 4 (Khan et al. 2024) (Decision Tree) - 0.9288
+Best Rain F1             : Paper 4 (Khan et al. 2024) (Decision Tree) - 0.9131
+Best ROC-AUC             : Paper 2 (Pathania et al. 2024) (Logistic Regression (Champion)) - 0.9570
+BEST OVERALL BALANCED    : Paper 4 (Khan et al. 2024) (MLP Neural Net) - Score: 0.9186
+================================================================================
+Rationale for Best Balanced Methodology:
+In rainfall prediction, false negatives (missed rain events) carry high agricultural and flood-warning costs.
+The balanced score integrates Rain Recall (35%), Rain F1 (35%), ROC-AUC (20%), and Accuracy (10%).
+Paper 4 (Khan et al. 2024) (MLP Neural Net) achieves optimal performance because its preprocessing
+effectively captures meteorological dynamics while avoiding overfitting.
+================================================================================

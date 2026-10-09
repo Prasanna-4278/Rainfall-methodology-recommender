@@ -1,0 +1,13 @@
+Methodology,Model,Preprocessing,Feature Selection,Accuracy,Rain Precision,Rain Recall,Rain F1,ROC-AUC,Cohen Kappa,Balanced Score,Training Time (s)
+Paper 1 (Talan 2026),Random Forest (Champion),"3-sigma + Lags(1-3) + Rolling(3,7d) + StandardScaler",Tree SelectFromModel,0.8752,0.9121,0.876,0.8937,0.9364,0.7428,0.8942,0.745
+Paper 1 (Talan 2026),Gradient Boosting,"3-sigma + Lags(1-3) + Rolling(3,7d) + StandardScaler",Tree SelectFromModel,0.8784,0.9126,0.8813,0.8966,0.9477,0.749,0.8996,1.797
+Paper 1 (Talan 2026),XGBoost,"3-sigma + Lags(1-3) + Rolling(3,7d) + StandardScaler",Tree SelectFromModel,0.8736,0.9096,0.876,0.8925,0.9464,0.7393,0.8956,0.561
+Paper 1 (Talan 2026),LightGBM,"3-sigma + Lags(1-3) + Rolling(3,7d) + StandardScaler",Tree SelectFromModel,0.8673,0.9041,0.8707,0.8871,0.9466,0.7263,0.8913,2.944
+Paper 1 (Talan 2026),MLP Neural Net,"3-sigma + Lags(1-3) + Rolling(3,7d) + StandardScaler",Tree SelectFromModel,0.8768,0.9013,0.8918,0.8966,0.9272,0.7442,0.899,0.493
+Paper 2 (Pathania et al. 2024),Logistic Regression (Champion),IQR Capping + Seasonal Bins + RH-T interaction + StandardScaler,None (All domain engineered features),0.8805,0.9292,0.8654,0.8962,0.957,0.7559,0.896,0.028
+Paper 3 (Kanmani Pappa et al. 2025),Random Forest (Champion),Median Imputation + MinMaxScaler,Correlation Threshold (|r| >= 0.10),0.8522,0.8992,0.847,0.8723,0.9376,0.6973,0.8745,0.266
+Paper 3 (Kanmani Pappa et al. 2025),Logistic Regression,Median Imputation + MinMaxScaler,Correlation Threshold (|r| >= 0.10),0.8711,0.9207,0.8575,0.888,0.9493,0.7366,0.8879,0.015
+Paper 4 (Khan et al. 2024),Random Forest (Champion),Date Cyclic + StandardScaler,Dual Stage: SelectKBest (ANOVA) + RF SelectFromModel,0.8915,0.9235,0.8918,0.9074,0.941,0.7765,0.9071,0.574
+Paper 4 (Khan et al. 2024),Decision Tree,Date Cyclic + StandardScaler,Dual Stage: SelectKBest (ANOVA) + RF SelectFromModel,0.8947,0.898,0.9288,0.9131,0.9122,0.7795,0.9166,0.251
+Paper 4 (Khan et al. 2024),MLP Neural Net,Date Cyclic + StandardScaler,Dual Stage: SelectKBest (ANOVA) + RF SelectFromModel,0.8931,0.9039,0.9182,0.911,0.9454,0.7772,0.9186,1.745
+Paper 4 (Khan et al. 2024),Logistic Regression,Date Cyclic + StandardScaler,Dual Stage: SelectKBest (ANOVA) + RF SelectFromModel,0.8695,0.9353,0.8391,0.8846,0.9411,0.7355,0.8784,0.252

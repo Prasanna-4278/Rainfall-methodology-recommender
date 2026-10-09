@@ -1,0 +1,20 @@
+==================================================
+DATASET PROFILE & CHARACTERISTICS
+==================================================
+Samples (N)             : 2097
+Features (D)            : 4 (T2M, RH2M, PS, WS10M)
+Sample-to-Feature Ratio : 524.2
+Missingness             : 0.0%
+Outliers (3-sigma)      : 0.35%
+Outliers (IQR)          : 1.17%
+Rain Events             : 56.8%
+No-Rain Events          : 43.2%
+Class Imbalance Ratio   : 1.31:1
+Mean Feature Skewness   : 0.548
+Average Pairwise Corr   : 0.357
+Max Pairwise Corr       : 0.577
+Temporal Continuity     : Yes
+Autocorrelation (Lag 1) : 0.945
+Seasonality Strength    : 1.0
+Rainfall Variability CV : 2.35
+==================================================
